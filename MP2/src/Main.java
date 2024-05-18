@@ -22,6 +22,7 @@ public class Main {
         Student student = new Student();
         Subject subject = new Subject();
         StudentSubject studentSubject = student.addSubject(subject);
+        subject.addStudent(student);
         studentSubject.setGrade(5);
         System.out.println("\t" + student);
         System.out.println("\t" + subject);

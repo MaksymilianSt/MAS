@@ -46,10 +46,10 @@ public class Subject {
         return id == subject.id && Objects.equals(name, subject.name);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name);
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(id, name);
+//    }
 
     @Override
     public String toString() {
